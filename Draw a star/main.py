@@ -1,4 +1,4 @@
-# Draw a triangle using turtle.
+# Draw a star using turtle.
 
 import turtle
 
