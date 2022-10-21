@@ -2,7 +2,7 @@
 
 import turtle
 
-myTurtle = turtle.Turtle()
+triangle = turtle.Turtle()
 
 length = 100
 angle = 120
@@ -10,6 +10,6 @@ angle = 120
 count = 0
 
 while count < 3:
-    myTurtle.forward(length)
-    myTurtle.left(angle)
+    triangle.forward(length)
+    triangle.left(angle)
     count = count + 1

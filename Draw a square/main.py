@@ -2,12 +2,12 @@
 
 import turtle
 
-myTurtle = turtle.Turtle()
+square = turtle.Turtle()
 
-myTurtle.forward(100)
-myTurtle.left(90)
-myTurtle.forward(100)
-myTurtle.left(90)
-myTurtle.forward(100)
-myTurtle.left(90)
-myTurtle.forward(100)
+square.forward(100)
+square.left(90)
+square.forward(100)
+square.left(90)
+square.forward(100)
+square.left(90)
+square.forward(100)

@@ -2,10 +2,10 @@
 
 import turtle
 
-myTurtle = turtle.Turtle()
+triangle = turtle.Turtle()
 
-myTurtle.forward(100)
-myTurtle.left(120)
-myTurtle.forward(100)
-myTurtle.left(120)
-myTurtle.forward(100)
+triangle.forward(100)
+triangle.left(120)
+triangle.forward(100)
+triangle.left(120)
+triangle.forward(100)
