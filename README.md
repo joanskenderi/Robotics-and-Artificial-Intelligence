@@ -9,6 +9,6 @@ IDE: PyCharm
 
 ---
 
-Disclaimer: The repo will be private or removed if the authors of the content do not agree for it to be used.
+Disclaimer: The repository will be private or removed if the authors do not agree for use of the content .
 
 ---
