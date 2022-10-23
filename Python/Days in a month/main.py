@@ -1,10 +1,11 @@
-# Write a program in Python that gets the month as input from the user and prints how many that month has.
+# Write a program in Python that gets the month as input from the user and prints how many days that month has.
 
 currentYear = int(input("Enter the year: "))
 month = int(input("Enter the month: "))
 
 if ((currentYear % 4) == 0 and (currentYear % 100) != 0 or (currentYear % 400) == 0):
     print("Leap year.")
+
     if (month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12):
         print("There are 31 days in this month.")
     elif (month == 4 or month == 6 or month == 9 or month == 11):
@@ -13,8 +14,10 @@ if ((currentYear % 4) == 0 and (currentYear % 100) != 0 or (currentYear % 400) =
         print("There are 29 days in this month.")
     else:
         print("Invalid month.")
+
 elif ((currentYear % 4) != 0 or (currentYear % 100) != 0 or (currentYear % 400) != 0):
     print("Non leap year.")
+
     if (month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12):
         print("There are 31 days in this month.")
     elif (month == 4 or month == 6 or month == 9 or month == 11):

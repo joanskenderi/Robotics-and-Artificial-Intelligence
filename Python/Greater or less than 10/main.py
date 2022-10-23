@@ -1,4 +1,4 @@
-# Write a program in Python that tells the user if the number is grater or less than 10.
+# Write a program in Python that tells the user if the number is greater or less than 10.
 
 num = 5;
 

@@ -2,10 +2,8 @@
 
 fruits = ["apple", "orange", "kiwi"]
 
-# Iterator object
 iterator_object = iter(fruits)
 
-# Infinite while loop
 while True:
     try:
         fruit = next(iterator_object)

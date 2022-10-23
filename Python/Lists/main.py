@@ -1,16 +1,15 @@
-# Write a function in Python called max_list that accepts a list as an argument and returns the maximum number in that list.
-# Write a function in Python called sum_list that accepts a list as an argument and returns the sum of all the numbers in that list.
-# Write a function in Python called odds_list that accepts a list as an argument and returns a new list with only the odd numbers from the list passed in.
+# Write a program in Python with list examples.
 
 import random
 
-nums = [random.randint(-100, 500) for _ in range(random.randint(5, 15))]
+numbers = [random.randint(-100, 500) for _ in range(random.randint(5, 15))]
 
 
-def myfunc(x):
+def function(x):
     return list(dict.fromkeys(x))
 
 
+# min_list
 def min_list(list):
     min_num = list[0]
     for num in list:
@@ -19,7 +18,7 @@ def min_list(list):
     return min_num
 
 
-# max_list function
+# max_list
 def max_list(list):
     max_num = list[0]
     for num in list:
@@ -28,7 +27,7 @@ def max_list(list):
     return max_num
 
 
-# sum_list function
+# sum_list
 def sum_list(list):
     sum = 0
     for num in list:
@@ -36,7 +35,7 @@ def sum_list(list):
     return sum
 
 
-# odd_list function
+# odd_list
 def odd_list(list):
     odds = []
     for num in list:
@@ -45,14 +44,9 @@ def odd_list(list):
     return odds
 
 
-print(nums)
-
-print("Minimum number is:", min_list(nums))
-
-print("Max number is:", max_list(nums))
-
-print("Sum is:", sum_list(nums))
-
-print("Average is:", sum_list(nums) / len(nums))
-
-print("Odd numbers are:", odd_list(nums))
+print(numbers)
+print("Minimum number is:", min_list(numbers))
+print("Max number is:", max_list(numbers))
+print("Sum is:", sum_list(numbers))
+print("Average is:", sum_list(numbers) / len(numbers))
+print("Odd numbers are:", odd_list(numbers))
