@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c478a708-6266-42bd-8884-8b9ac0bc37e3" name="Changes" comment="" />
+    <list default="true" id="c478a708-6266-42bd-8884-8b9ac0bc37e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/turtle/Draw a shape/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle/Draw a shape/.idea/Draw a shape.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle/Draw a shape/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle/Draw a shape/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle/Draw a shape/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle/Draw a shape/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle/Draw a shape/main.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,13 +26,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/joanskenderi/Desktop/Robotics & AI"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/joanskenderi/Desktop/Robotics &amp; AI&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

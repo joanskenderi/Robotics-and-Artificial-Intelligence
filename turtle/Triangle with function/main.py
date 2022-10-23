@@ -4,6 +4,7 @@ import turtle
 
 triangle = turtle.Turtle()
 
+
 def draw_triangle(length):
     angle = 120
     for i in range(3):

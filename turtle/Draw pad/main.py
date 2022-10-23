@@ -1,4 +1,4 @@
-# Write a program in turtle that generates a polygon in each click.
+# Write a draw pad program in turtle.
 
 import turtle
 

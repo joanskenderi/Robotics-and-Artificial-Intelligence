@@ -1,4 +1,4 @@
-# Write a program in turtle that chases the mice after click.
+# Write a program in turtle that draws a line to the place where the user clicks.
 
 import turtle
 
