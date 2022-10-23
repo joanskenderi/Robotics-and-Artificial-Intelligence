@@ -2,14 +2,13 @@
 
 import turtle
 
-triangle = turtle.Turtle()
+my_turtle = turtle.Turtle()
 
 length = 100
 angle = 120
-
 count = 0
 
 while count < 3:
-    triangle.forward(length)
-    triangle.left(angle)
+    my_turtle.forward(length)
+    my_turtle.left(angle)
     count = count + 1

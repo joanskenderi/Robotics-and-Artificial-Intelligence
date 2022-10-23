@@ -3,7 +3,7 @@
 import turtle
 import random
 
-shell = turtle.Turtle()
+my_turtle = turtle.Turtle()
 
 line_length = 1
 
@@ -12,12 +12,12 @@ for i in range(360):
     r = random.randint(0, 256)
     g = random.randint(0, 256)
     b = random.randint(0, 256)
-    shell.color(r, g, b)
+    my_turtle.color(r, g, b)
 
     # Draw line
-    shell.goto(0, 0)
-    shell.forward(line_length)
-    shell.right(5)
+    my_turtle.goto(0, 0)
+    my_turtle.forward(line_length)
+    my_turtle.right(5)
 
     # Increase length of line
     line_length = line_length + 1

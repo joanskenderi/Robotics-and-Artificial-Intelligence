@@ -3,16 +3,16 @@
 import turtle
 import random
 
-stairs = turtle.Turtle()
+my_turtle = turtle.Turtle()
 
 angle = 90
 steps = 10
 
 for i in range(steps):
     length = random.randint(10, 40)
-    stairs.forward(length)
-    stairs.left(angle)
+    my_turtle.forward(length)
+    my_turtle.left(angle)
 
     length = random.randint(10, 40)
-    stairs.forward(length)
-    stairs.right(angle)
+    my_turtle.forward(length)
+    my_turtle.right(angle)

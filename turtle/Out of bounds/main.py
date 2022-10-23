@@ -3,7 +3,7 @@
 import turtle
 
 
-def drawBox():
+def draw_box():
     box_drawer = turtle.Turtle()
     box_drawer.speed(10)
     box_drawer.color("red")
@@ -22,7 +22,7 @@ my_turtle = turtle.Turtle()
 screen = turtle.Screen()
 score_turtle = turtle.Turtle()
 
-drawBox()
+draw_box()
 
 angle = 10
 step = 3

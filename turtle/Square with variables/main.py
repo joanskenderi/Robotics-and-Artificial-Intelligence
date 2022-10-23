@@ -2,15 +2,15 @@
 
 import turtle
 
-square = turtle.Turtle()
+my_turtle = turtle.Turtle()
 
 length = 100
 angle = 90
 
-square.forward(length)
-square.left(angle)
-square.forward(length)
-square.left(angle)
-square.forward(length)
-square.left(angle)
-square.forward(length)
+my_turtle.forward(length)
+my_turtle.left(angle)
+my_turtle.forward(length)
+my_turtle.left(angle)
+my_turtle.forward(length)
+my_turtle.left(angle)
+my_turtle.forward(length)

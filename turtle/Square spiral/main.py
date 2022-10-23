@@ -2,11 +2,11 @@
 
 import turtle
 
-spiral = turtle.Turtle()
+my_turtle = turtle.Turtle()
 
 size = 10
 
 for i in range(20):
-    spiral.forward(size)
-    spiral.right(90)
+    my_turtle.forward(size)
+    my_turtle.right(90)
     size = size + 10

@@ -2,14 +2,15 @@
 
 import turtle
 
-triangle = turtle.Turtle()
+my_turtle = turtle.Turtle()
 
 
 def draw_triangle(length):
     angle = 120
+    
     for i in range(3):
-        triangle.forward(length)
-        triangle.left(angle)
+        my_turtle.forward(length)
+        my_turtle.left(angle)
 
 
 draw_triangle(140)

@@ -6,21 +6,21 @@ from math import sqrt
 
 
 def create_head():
-    t = Turtle()
-    t.shape("turtle")
-    t.penup()
-    t.color("red")
-    return t
+    my_turtle = Turtle()
+    my_turtle.shape("turtle")
+    my_turtle.penup()
+    my_turtle.color("red")
+    return my_turtle
 
 
 def move_turtle_randomly(t):
     x = randint(-200, 200)
     y = randint(-200, 200)
-    t.penup()
-    t.hideturtle()
-    t.setx(x)
-    t.sety(y)
-    t.showturtle()
+    my_turtle.penup()
+    my_turtle.hideturtle()
+    my_turtle.setx(x)
+    my_turtle.sety(y)
+    my_turtle.showturtle()
 
 
 def check_distance(t1, t2):
@@ -71,20 +71,24 @@ screen.onkey(down, "Down")
 screen.onkey(left, "Left")
 screen.onkey(right, "Right")
 screen.listen()
+
 min_distance = 20
 counter = 0
 head_speed = 1000
 head_step = 2
+
 while True:
     head.speed(head_speed)
     head.forward(head_step)
     d = check_distance(head, food)
+
     if d < min_distance:
         counter += 1
         if head_speed > 0:
             head_speed -= 1
         if head_step < 6:
             head_step += 0.2
+
         points.clear()
         points.write("you got " + str(counter) + " points", font=("Arial", 15, "normal"))
         move_turtle_randomly(food)

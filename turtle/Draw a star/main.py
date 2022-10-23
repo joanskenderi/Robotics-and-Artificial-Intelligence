@@ -2,8 +2,8 @@
 
 import turtle
 
-star = turtle.Turtle()
+my_turtle = turtle.Turtle()
 
 for i in range(5):
-    star.forward(50)
-    star.right(144)
+    my_turtle.forward(50)
+    my_turtle.right(144)

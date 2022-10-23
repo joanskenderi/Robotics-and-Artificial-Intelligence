@@ -2,14 +2,13 @@
 
 import turtle
 
-square = turtle.Turtle()
+my_turtle = turtle.Turtle()
 
 size = 100
 angle = 90
-
 count = 0
 
 while count < 4:
-    square.forward(size)
-    square.left(angle)
+    my_turtle.forward(size)
+    my_turtle.left(angle)
     count = count + 1

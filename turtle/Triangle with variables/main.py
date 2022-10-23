@@ -2,13 +2,13 @@
 
 import turtle
 
-triangle = turtle.Turtle()
+my_turtle = turtle.Turtle()
 
 length = 100
 angle = 120
 
-triangle.forward(length)
-triangle.left(angle)
-triangle.forward(length)
-triangle.left(angle)
-triangle.forward(length)
+my_turtle.forward(length)
+my_turtle.left(angle)
+my_turtle.forward(length)
+my_turtle.left(angle)
+my_turtle.forward(length)

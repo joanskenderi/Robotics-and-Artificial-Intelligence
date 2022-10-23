@@ -2,20 +2,21 @@
 
 import turtle
 
-square = turtle.Turtle()
-angle = 10
+my_turtle = turtle.Turtle()
+my_turtle.speed(0)
 
-square.speed(0)
+angle = 10
 
 
 def draw_square(size):
     for i in range(4):
-        square.forward(size)
-        square.right(90)
+        my_turtle.forward(size)
+        my_turtle.right(90)
 
 
 def draw_increasing_squares():
     length = 50
+
     for i in range(10):
         draw_square(length)
         length += 10
@@ -23,4 +24,4 @@ def draw_increasing_squares():
 
 for i in range(36):
     draw_increasing_squares()
-    square.right(angle)
+    my_turtle.right(angle)

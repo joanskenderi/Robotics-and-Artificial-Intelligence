@@ -2,12 +2,12 @@
 
 import turtle
 
-hexagon = turtle.Turtle()
+my_turtle = turtle.Turtle()
 
 num_sides = 6
 side_length = 70
 angle = 360 / num_sides
 
 for i in range(num_sides):
-    hexagon.forward(side_length)
-    hexagon.right(angle)
+    my_turtle.forward(side_length)
+    my_turtle.right(angle)

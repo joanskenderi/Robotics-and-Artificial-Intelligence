@@ -2,13 +2,13 @@
 
 import turtle
 
-polygon = turtle.Turtle()
+my_turtle = turtle.Turtle()
 
 
 def draw_shape(length, number_of_sides):
     for i in range(number_of_sides):
-        polygon.forward(length)
-        polygon.right(360 / number_of_sides)
+        my_turtle.forward(length)
+        my_turtle.right(360 / number_of_sides)
 
 
 draw_shape(90, 7)

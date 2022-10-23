@@ -79,16 +79,16 @@ def check_collision():
     return False
 
 
-t = turtle.Turtle()
-t.penup()
-t.hideturtle()
-t.speed(0)
+my_turtle = turtle.Turtle()
+my_turtle.penup()
+my_turtle.hideturtle()
+my_turtle.speed(0)
 
 # Listeners
 points = 0
 screen.listen()
 while True:
-    t.forward(1)
+    my_turtle.forward(1)
     for bullet in bullets:
         bullet.goto(bullet.xcor() + 15, bullet.ycor())
         if bullet.xcor() > SCREEN_END:
