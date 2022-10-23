@@ -4,6 +4,6 @@ These are some of the exercises I did during my Robotics & AI bootcamp using Pyt
 
 ---
 
-<font size="1"> Disclaimer: The repository will be private or removed if the authors do not agree for use of the content. </font>
+Disclaimer: The repository will be private or removed if the authors do not agree for use of the content.
 
 ---
