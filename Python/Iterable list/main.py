@@ -1,4 +1,4 @@
-# Make an iterable list in Python.
+# Write an iterable list in Python.
 
 fruits = ["apple", "orange", "kiwi"]
 

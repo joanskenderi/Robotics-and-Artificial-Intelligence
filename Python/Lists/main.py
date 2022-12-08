@@ -1,4 +1,4 @@
-# Write a program in Python with list examples.
+# Write a program in Python with different list examples.
 
 import random
 
@@ -45,8 +45,8 @@ def odd_list(list):
 
 
 print(numbers)
-print("Minimum number is:", min_list(numbers))
-print("Max number is:", max_list(numbers))
-print("Sum is:", sum_list(numbers))
-print("Average is:", sum_list(numbers) / len(numbers))
-print("Odd numbers are:", odd_list(numbers))
+print("Minimum number is:", min_list(numbers), ".")
+print("Max number is:", max_list(numbers), ".")
+print("Sum is:", sum_list(numbers), ".")
+print("Average is:", sum_list(numbers) / len(numbers), ".")
+print("Odd numbers are:", odd_list(numbers), ".")

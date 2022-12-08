@@ -1,7 +1,7 @@
-# Write a program in Python that gets the month as input from the user and prints how many days that month has.
+# Write a program in Python that gets a month as input from user and prints how many days that month has.
 
-currentYear = int(input("Enter the year: "))
-month = int(input("Enter the month: "))
+currentYear = int(input("Enter a year: "))
+month = int(input("Enter a month: "))
 
 if ((currentYear % 4) == 0 and (currentYear % 100) != 0 or (currentYear % 400) == 0):
     print("Leap year.")

@@ -1,8 +1,8 @@
-# Write a program in Python that tells the user if the number is greater or less than 10.
+# Write a program in Python that tells the user if number is greater or less than ten.
 
 num = 5;
 
 if (num > 10):
-    print("The number is grater than 10.")
+    print("Entered number is greater than 10.")
 else:
-    print("The number is less than 10.")
+    print("Entered number is less than 10.")
