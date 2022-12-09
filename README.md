@@ -1,3 +1,3 @@
 # Robotics & Artificial Intelligence
 
-These are some of the exercises I did during the "Robotics and Artificial Intelligence" bootcamp.
+These are some exercises I did during "Robotics and Artificial Intelligence" bootcamp.
