@@ -1,4 +1,4 @@
-# Draw a triangle using turtle.
+# Write a program in turtle that draws a triangle.
 
 import turtle
 

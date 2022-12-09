@@ -1,4 +1,4 @@
-# Write program in turtle in which a turtle eats food and each food is one point.
+# Write program in turtle in which turtle eats food and each food item is one point.
 
 from turtle import *
 from random import randint

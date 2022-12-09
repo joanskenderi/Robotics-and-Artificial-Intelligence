@@ -1,4 +1,4 @@
-# Write a program in turtle that generates a polygon in each click.
+# Write a program in turtle that draws a polygon in each click.
 
 import turtle
 import random

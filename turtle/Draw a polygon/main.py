@@ -1,4 +1,4 @@
-# Draw a polygon using turtle.
+# Write a program in turtle that draws a polygon.
 
 import turtle
 

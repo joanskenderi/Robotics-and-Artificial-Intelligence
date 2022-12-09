@@ -1,4 +1,4 @@
-# Draw a star using turtle.
+# Write a program in turtle that draws a star.
 
 import turtle
 

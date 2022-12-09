@@ -1,4 +1,4 @@
-# Create a spaceship game using turtle.
+# Write a spaceship game in turtle.
 
 import turtle as turtle
 from time import time

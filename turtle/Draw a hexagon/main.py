@@ -1,4 +1,4 @@
-# Draw a hexagon using turtle.
+# Write a program in turtle that draws a hexagon.
 
 import turtle
 
